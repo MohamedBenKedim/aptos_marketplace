@@ -41,7 +41,7 @@ module DOV::dov_token {
         primary_fungible_store::create_primary_store_enabled_fungible_asset(
             constructor_ref,
             option::none(),
-            utf8(b"DOV Coin"), /* name */
+            utf8(b"DVC"), /* name */
             utf8(ASSET_SYMBOL), /* symbol */
             8, /* decimals */
             utf8(b"gray-wooden-tahr-281.mypinata.cloud/ipfs/QmfZBtu8fpstR2qdf2DzU6wEdWUcSo2z6e8aX1kYifUv81?pinataGatewayToken=5-q_dlHrwXDKUxAs1ms5qmRBZYbUznM0pOAfg0ERTSlafrBhYcpJIeuo-qApT6fI"), /* icon */
