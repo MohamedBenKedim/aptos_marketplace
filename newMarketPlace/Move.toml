@@ -1,0 +1,17 @@
+[package]
+name = "EnergymarketPlace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+abc='0x1ea5ad782b08a8e602920d13f5717c6715d0ea4f58e20babeac21e4af2dfb9b0'
+
+DOV='0x9f78e7c56fc5a41a66a78880d1dffe56341eaeb4c73f8100f11be5b7b5dc2444'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
